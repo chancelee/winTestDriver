@@ -1,0 +1,16 @@
+﻿  Building 'PopupDrv' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping Debug\PopupDriver.inf
+  Stamping [Version] section with DriverVer=05/30/2019,0.14.37.751
+  main.c
+f:\testproject\popwindow\driver\main.c(78): error C2220: warning treated as error - no 'object' file generated
+f:\testproject\popwindow\driver\main.c(78): warning C4100: 'DeviceObject': unreferenced formal parameter
+f:\testproject\popwindow\driver\main.c(139): warning C4047: 'function': 'ULONG' differs in levels of indirection from 'void *'
+f:\testproject\popwindow\driver\main.c(139): warning C4024: 'ZwQueryInformationProcess': different types for formal and actual parameter 4
+f:\testproject\popwindow\driver\main.c(204): warning C4047: 'function': 'ACCESS_MASK' differs in levels of indirection from 'void *'
+f:\testproject\popwindow\driver\main.c(204): warning C4024: 'ObReferenceObjectByHandle': different types for formal and actual parameter 2
+f:\testproject\popwindow\driver\main.c(297): warning C4100: 'pDevObj': unreferenced formal parameter
+f:\testproject\popwindow\driver\main.c(367): warning C4057: 'function': 'volatile LONG *' differs in indirection to slightly different base types from 'ULONG *'
+f:\testproject\popwindow\driver\main.c(521): warning C4100: 'DeviceObject': unreferenced formal parameter
+f:\testproject\popwindow\driver\main.c(630): warning C4100: 'pDevObj': unreferenced formal parameter
+f:\testproject\popwindow\driver\main.c(643): warning C4100: 'pDevObj': unreferenced formal parameter
+f:\testproject\popwindow\driver\main.c(655): warning C4100: 'pRegistryPath': unreferenced formal parameter

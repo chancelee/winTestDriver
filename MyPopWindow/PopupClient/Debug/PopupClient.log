@@ -1,0 +1,14 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  StdAfx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  PopupDlg.cpp
+  PopupClientDlg.cpp
+f:\testproject\popwindow\popupclient\popupclientdlg.cpp(505): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_wstring.h(123): note: see declaration of 'wcscpy'
+  PopupClient.cpp
+f:\testproject\popwindow\popupclient\popupclient.cpp(76): warning C4996: 'CWinApp::Enable3dControlsStatic': CWinApp::Enable3dControlsStatic is no longer needed. You should remove this call.
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(5232): note: see declaration of 'CWinApp::Enable3dControlsStatic'
+  Generating Code...
+PopupClient.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  PopupClient.vcxproj -> F:\testProject\PopWindow\PopupClient\.\Debug\PopupClient.exe
