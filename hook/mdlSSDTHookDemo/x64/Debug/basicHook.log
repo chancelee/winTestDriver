@@ -1,0 +1,14 @@
+﻿  Building 'basicHook' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Debug\basicHook.inf
+  Stamping [Version] section with DriverVer=05/30/2019,20.50.44.986
+  hook.c
+f:\wintestdriver\wintestdriver\hook\basichook\hook.c(106): warning C4047: '=': 'ZWCREATESECTION' differs in levels of indirection from 'unsigned int'
+f:\wintestdriver\wintestdriver\hook\basichook\hook.c(107): warning C4311: 'type cast': pointer truncation from 'NTSTATUS (__cdecl *)(PHANDLE,ACCESS_MASK,POBJECT_ATTRIBUTES,PLARGE_INTEGER,ULONG,ULONG,HANDLE)' to 'ULONG'
+f:\wintestdriver\wintestdriver\hook\basichook\hook.c(121): warning C4311: 'type cast': pointer truncation from 'ZWCREATESECTION' to 'ULONG'
+f:\wintestdriver\wintestdriver\hook\basichook\hook.c(132): warning C4101: 'ntStatus': unreferenced local variable
+f:\wintestdriver\wintestdriver\hook\basichook\hook.c(150): warning C4189: 'extension': local variable is initialized but not referenced
+f:\wintestdriver\wintestdriver\hook\basichook\hook.c(172): warning C4100: 'DeviceObject': unreferenced formal parameter
+f:\wintestdriver\wintestdriver\hook\basichook\hook.c(182): warning C4100: 'DeviceObject': unreferenced formal parameter
+f:\wintestdriver\wintestdriver\hook\basichook\hook.c(205): warning C4101: 'uszEventString': unreferenced local variable
+hook.obj : error LNK2001: unresolved external symbol __imp_KeServiceDescriptorTable
+F:\winTestDriver\winTestDriver\hook\basicHook\x64\Debug\basicHook.sys : fatal error LNK1120: 1 unresolved externals

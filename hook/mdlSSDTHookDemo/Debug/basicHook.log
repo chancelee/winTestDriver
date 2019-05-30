@@ -1,0 +1,11 @@
+﻿  Building 'basicHook' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping Debug\basicHook.inf
+  Stamping [Version] section with DriverVer=05/30/2019,21.24.21.825
+  hook.c
+f:\wintestdriver\wintestdriver\hook\basichook\hook.c(106): warning C4047: '=': 'ZWCREATESECTION' differs in levels of indirection from 'unsigned int'
+f:\wintestdriver\wintestdriver\hook\basichook\hook.c(132): warning C4101: 'ntStatus': unreferenced local variable
+f:\wintestdriver\wintestdriver\hook\basichook\hook.c(150): warning C4189: 'extension': local variable is initialized but not referenced
+f:\wintestdriver\wintestdriver\hook\basichook\hook.c(172): warning C4100: 'DeviceObject': unreferenced formal parameter
+f:\wintestdriver\wintestdriver\hook\basichook\hook.c(182): warning C4100: 'DeviceObject': unreferenced formal parameter
+f:\wintestdriver\wintestdriver\hook\basichook\hook.c(205): warning C4101: 'uszEventString': unreferenced local variable
+  basicHook.vcxproj -> F:\winTestDriver\winTestDriver\hook\basicHook\Debug\basicHook.sys
