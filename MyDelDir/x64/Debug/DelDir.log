@@ -1,0 +1,8 @@
+﻿  Building 'DelDir' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Debug\DelDir.inf
+  Stamping [Version] section with DriverVer=05/28/2019,15.6.24.435
+  Deldir.c
+  DelDir.vcxproj -> F:\testProject\driverTest\DelDir\DelDir\x64\Debug\DelDir.sys
+  Done Adding Additional Store
+  Successfully signed: F:\testProject\driverTest\DelDir\DelDir\x64\Debug\DelDir.sys
+  
