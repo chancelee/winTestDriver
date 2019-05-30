@@ -1,0 +1,13 @@
+﻿  Building 'U2LDrv' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping Debug\U2LDrv.inf
+  Stamping [Version] section with DriverVer=05/26/2019,3.12.27.872
+  U2LDrv.c
+f:\testproject\drivertest\unc2local\u2ldrv\u2ldrv.c(48): error C2220: 警告被视为错误 - 没有生成“object”文件
+f:\testproject\drivertest\unc2local\u2ldrv\u2ldrv.c(48): warning C4242: “=”: 从“ULONG”转换到“USHORT”，可能丢失数据
+f:\testproject\drivertest\unc2local\u2ldrv\u2ldrv.c(50): warning C4242: “=”: 从“ULONG”转换到“USHORT”，可能丢失数据
+f:\testproject\drivertest\unc2local\u2ldrv\u2ldrv.c(56): warning C4554: “>>”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
+f:\testproject\drivertest\unc2local\u2ldrv\u2ldrv.c(105): warning C4244: “=”: 从“ULONG”转换到“USHORT”，可能丢失数据
+f:\testproject\drivertest\unc2local\u2ldrv\u2ldrv.c(106): warning C4133: “return”: 从“PUNICODE_STRING”到“WCHAR *”的类型不兼容
+f:\testproject\drivertest\unc2local\u2ldrv\u2ldrv.c(111): warning C4100: “pStrLocal”: 未引用的形参
+f:\testproject\drivertest\unc2local\u2ldrv\u2ldrv.c(243): warning C4100: “pDriverObject”: 未引用的形参
+f:\testproject\drivertest\unc2local\u2ldrv\u2ldrv.c(248): warning C4100: “pReg”: 未引用的形参

@@ -1,0 +1,14 @@
+﻿  Building 'U2LDrv' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Debug\U2LDrv.inf
+  Stamping [Version] section with DriverVer=05/26/2019,16.22.57.670
+  U2LDrv.c
+f:\testproject\drivertest\unc2local\u2ldrv\u2ldrv.c(109): warning C4242: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+f:\testproject\drivertest\unc2local\u2ldrv\u2ldrv.c(112): warning C4267: “=”: 从“size_t”转换到“USHORT”，可能丢失数据
+f:\testproject\drivertest\unc2local\u2ldrv\u2ldrv.c(154): warning C4242: “=”: 从“ULONG”转换到“USHORT”，可能丢失数据
+f:\testproject\drivertest\unc2local\u2ldrv\u2ldrv.c(122): warning C4189: “pSharEnd”: 局部变量已初始化但不引用
+f:\testproject\drivertest\unc2local\u2ldrv\u2ldrv.c(278): warning C4189: “i”: 局部变量已初始化但不引用
+f:\testproject\drivertest\unc2local\u2ldrv\u2ldrv.c(325): warning C4716: “DriverUnload”: 必须返回一个值
+  U2LDrv.vcxproj -> F:\testProject\driverTest\UNC2Local\U2LDrv\x64\Debug\U2LDrv.sys
+  Done Adding Additional Store
+  Successfully signed: F:\testProject\driverTest\UNC2Local\U2LDrv\x64\Debug\U2LDrv.sys
+  
