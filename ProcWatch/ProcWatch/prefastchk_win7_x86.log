@@ -1,0 +1,28 @@
+-----------------------------------------------------------------------------
+Microsoft (R) PREfast Version 9.0.21022.100208.
+Copyright (C) Microsoft Corporation. All rights reserved.
+-----------------------------------------------------------------------------
+Contents of defect log: PREfast_defects_chk_win7_x86.xml
+-----------------------------------------------------------------------------
+e:\project\procwatch\procwatch\procwatch.c (20): warning 28101: The Drivers module has inferred that the current function is a DRIVER_INITIALIZE function:  This is informational only. No problem has been detected.
+	FUNCTION: DriverEntry (20)
+
+e:\project\procwatch\procwatch\procwatch.c (36): warning 6014: (PFD)Leaking memory 'deviceObject'.
+	FUNCTION: DriverEntry (20)
+	PATH: 23 23 24 25 26 29 30 39 44 45 47 49 50 
+
+e:\project\procwatch\procwatch\procwatch.c (85): warning 28155: The function being assigned or passed should be a DRIVER_DISPATCH function:  Add the declaration 'DRIVER_DISPATCH CommonDispatch;' before the current first declaration of CommonDispatch.
+	FUNCTION: DriverEntry (20)
+
+e:\project\procwatch\procwatch\procwatch.c (85): warning 28169: The dispatch function 'CommonDispatch' does not have any __drv_dispatchType annotations:  This can be corrected by adding appropriate __drv_dispatchType annotations to the function. Unnecessary casts can cause this warning.
+	FUNCTION: DriverEntry (20)
+
+e:\project\procwatch\procwatch\procwatch.c (88): warning 28155: The function being assigned or passed should be a DRIVER_UNLOAD function:  Add the declaration 'DRIVER_UNLOAD DriverUnload;' before the current first declaration of DriverUnload.
+	FUNCTION: DriverEntry (20)
+
+-----------------------------------------------------------------------------
+5 of 5 Defects Listed
+Filter in effect: drivers_recommended
+-----------------------------------------------------------------------------
+You can change the filter and sort options from the user interface.
+Enter PREFAST VIEW to display the defect log user interface.
