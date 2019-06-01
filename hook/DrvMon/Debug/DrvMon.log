@@ -1,0 +1,25 @@
+﻿  Building 'PopupDrv' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping Debug\DrvMon.inf
+  Stamping [Version] section with DriverVer=05/31/2019,22.0.8.385
+  hook.c
+f:\wintestdriver\wintestdriver\hook\drvmon\hook.c(47): warning C4201: nonstandard extension used: nameless struct/union
+f:\wintestdriver\wintestdriver\hook\drvmon\hook.c(53): warning C4201: nonstandard extension used: nameless struct/union
+f:\wintestdriver\wintestdriver\hook\drvmon\hook.c(138): warning C4189: 'szTarget': local variable is initialized but not referenced
+f:\wintestdriver\wintestdriver\hook\drvmon\hook.c(291): warning C4047: '=': 'ZWLOADDRIVER' differs in levels of indirection from 'unsigned int'
+f:\wintestdriver\wintestdriver\hook\drvmon\hook.c(293): warning C4047: '=': 'RealNTALPCSENDWAITRECEIVEPORT' differs in levels of indirection from 'unsigned int'
+f:\wintestdriver\wintestdriver\hook\drvmon\hook.c(286): warning C4101: 'pDllFile': unreferenced local variable
+f:\wintestdriver\wintestdriver\hook\drvmon\hook.c(285): warning C4101: 'hFile': unreferenced local variable
+f:\wintestdriver\wintestdriver\hook\drvmon\hook.c(288): warning C4101: 'ulByteReaded': unreferenced local variable
+f:\wintestdriver\wintestdriver\hook\drvmon\hook.c(287): warning C4101: 'ulSize': unreferenced local variable
+  main.c
+f:\wintestdriver\wintestdriver\hook\drvmon\main.c(75): warning C4100: 'DeviceObject': unreferenced formal parameter
+f:\wintestdriver\wintestdriver\hook\drvmon\main.c(104): warning C4100: 'pDevObj': unreferenced formal parameter
+f:\wintestdriver\wintestdriver\hook\drvmon\main.c(174): warning C4057: 'function': 'volatile LONG *' differs in indirection to slightly different base types from 'ULONG *'
+f:\wintestdriver\wintestdriver\hook\drvmon\main.c(311): warning C4100: 'DeviceObject': unreferenced formal parameter
+f:\wintestdriver\wintestdriver\hook\drvmon\main.c(427): warning C4100: 'pDevObj': unreferenced formal parameter
+f:\wintestdriver\wintestdriver\hook\drvmon\main.c(440): warning C4100: 'pDevObj': unreferenced formal parameter
+f:\wintestdriver\wintestdriver\hook\drvmon\main.c(452): warning C4100: 'pRegistryPath': unreferenced formal parameter
+  misc.c
+f:\wintestdriver\wintestdriver\hook\drvmon\misc.c(871): warning C4244: '=': conversion from 'unsigned int' to 'USHORT', possible loss of data
+  Generating Code...
+  DrvMon.vcxproj -> F:\winTestDriver\winTestDriver\hook\DrvMon\Debug\PopupDrv.sys
