@@ -1,0 +1,8 @@
+﻿  Building 'procssMon' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping Debug\procssMon.inf
+  Stamping [Version] section with DriverVer=06/04/2019,18.17.33.85
+F:\winTestDriver\winTestDriver\proMon\procssMon\procssMon.inf(73-73): warning 1205: Section [MiniFilter.DriverFiles] referenced from DelFiles and CopyFiles directive.
+  procssMon.c
+f:\wintestdriver\wintestdriver\promon\procssmon\procssmon.c(658): warning C4100: 'Data': unreferenced formal parameter
+f:\wintestdriver\wintestdriver\promon\procssmon\procssmon.c(771): warning C4100: 'Data': unreferenced formal parameter
+  procssMon.vcxproj -> F:\winTestDriver\winTestDriver\proMon\procssMon\Debug\procssMon.sys
